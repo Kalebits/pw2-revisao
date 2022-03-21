@@ -1,11 +1,11 @@
 
 public class ExercicioDois {
-public static void main(String[] args) {
-	int numeroA = 30, numeroB = 45 , numeroC = 0;
-	numeroC = numeroA;
-	numeroA = numeroB;
-	numeroB = numeroC;
-	
-	System.out.println(""+ numeroA +numeroB);
-}
+	public static void main(String[] args) {
+		int numeroA = 30, numeroB = 45, numeroC = 0;
+		numeroC = numeroA;
+		numeroA = numeroB;
+		numeroB = numeroC;
+
+		System.out.println( + numeroA + " " + numeroB);
+	}
 }
